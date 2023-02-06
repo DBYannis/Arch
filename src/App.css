@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('https://www.ouestfrance-immo.com/photo-vente-programme-neuf-orleans-45/5748/programme-neuf-a-vendre-orleans-15983090_1_1665023569_fa5ccc4c2bdc60f0da4817802587c789.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('https://immobilier66.fr/wp-content/uploads/2021/04/projet_immobilier_perpignan_66_david_delaroque_3.jpeg'); ;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+  font-size: 100px;
+}
+.sign-up {
+  background-image: url('https://business-cool.com/wp-content/uploads/2023/01/the-line-public-exhibition-cover.jpg'); ;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+  font-size: 100px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .services, .products, .sign-up {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .services, .products, .sign-up {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .services, .products, .sign-up {
+    font-size: 70px;
+  }
+}
