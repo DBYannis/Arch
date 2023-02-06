@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TRVL/static/css/main.ea096265.css",
+    "main.js": "/TRVL/static/js/main.344f6078.js",
+    "static/media/video-1.mp4": "/TRVL/static/media/video-1.e9e373c3a001fc92f572.mp4",
+    "index.html": "/TRVL/index.html",
+    "main.ea096265.css.map": "/TRVL/static/css/main.ea096265.css.map",
+    "main.344f6078.js.map": "/TRVL/static/js/main.344f6078.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea096265.css",
+    "static/js/main.344f6078.js"
+  ]
+}
